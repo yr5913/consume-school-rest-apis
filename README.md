@@ -48,3 +48,4 @@ Follow these steps to set up and run the Spring security Learner Microservice:
    school get contact messages api, but will get unauthorized error as we are not passing creds
 4. Added creds by using BasicAuthRequestInterceptor to pass credentials in outgoing requests
 5. Fixed the email not being displayed in messages response
+6. created REst template to save the message by calling the save message api in school web app
