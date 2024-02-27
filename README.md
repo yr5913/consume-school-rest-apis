@@ -42,3 +42,5 @@ Follow these steps to set up and run the Spring security Learner Microservice:
 
 1. Initial commit with minimum code and no dependencies and spring boot project is downloaded from spring website
    start.spring.io
+2. Added all required dependencies, this includes spring starter web, spring cloud, openfeign, loadbalancer, webflux
+      dependencies, make sure to add spring cloud version that is compatible with spring boot version
