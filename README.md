@@ -43,4 +43,6 @@ Follow these steps to set up and run the Spring security Learner Microservice:
 1. Initial commit with minimum code and no dependencies and spring boot project is downloaded from spring website
    start.spring.io
 2. Added all required dependencies, this includes spring starter web, spring cloud, openfeign, loadbalancer, webflux
-      dependencies, make sure to add spring cloud version that is compatible with spring boot version
+   dependencies, make sure to add spring cloud version that is compatible with spring boot version
+3. Server port is changed to 8081 to not conflict with school web app. Added FienClient proxy, controller to consume the
+   school get contact messages api, but will get unauthorized error as we are not passing creds
