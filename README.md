@@ -46,3 +46,4 @@ Follow these steps to set up and run the Spring security Learner Microservice:
    dependencies, make sure to add spring cloud version that is compatible with spring boot version
 3. Server port is changed to 8081 to not conflict with school web app. Added FienClient proxy, controller to consume the
    school get contact messages api, but will get unauthorized error as we are not passing creds
+4. Added creds by using BasicAuthRequestInterceptor to pass credentials in outgoing requests
